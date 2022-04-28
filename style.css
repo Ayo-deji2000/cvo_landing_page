@@ -69,9 +69,14 @@ section {
 header {
     height: 100vh;
     padding-top: 2rem;
-    background-image: url("images/slide-01.jpg");
+    background-image: url("images/slide-01_1.jpg");
+    
     object-fit: contain;
 }
+/* header  img {
+    direction: ltr;
+    height: 100vh;
+} */
 .about-landing, .contact-landing, .service-landing {
     
     height: 65vh;
@@ -96,7 +101,7 @@ header {
    
 }
 header img, .about-landing img, .contact-landing img, .service-landing img{
-    width: 17%;
+    width: 11%;
     height: 10%;
 }
 header nav ul, .about-landing nav ul, .contact-landing nav ul, .service-landing nav ul {
@@ -108,7 +113,7 @@ header nav ul li, .about-landing nav ul li, .contact-landing nav ul li, .service
     padding: 0 1.1rem ;
 }
 header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav ul li a:hover, .service-landing nav ul li a:hover   {
-    color: orangered;
+    color: #663399;
 }
 .drop-down .drop-btn {
     font-family: 'Montserrat', sans-serif;
@@ -140,7 +145,7 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     
   }
   .drop-down-content a:hover {
-    background-color: orangered;
+    background-color: #663399;
   }
   
   .drop-down:hover .drop-down-content {
@@ -155,7 +160,7 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     cursor: pointer;
 }
 .color {
-    color: orangered;
+    color: #663399;
 }
 .colors {
     color: rgb(2, 115, 2); ;
@@ -186,7 +191,7 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     
 }
 .top-btn :nth-child(2){
-    background-color: orangered;
+    background-color: #663399;
     margin-left: 2rem;
 } 
 .row-card {
@@ -220,7 +225,7 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     text-align: center;
 }
 .general p {
-    color: orangered;
+    color: #663399;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -250,7 +255,7 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: .1rem .1rem  .1rem  .2rem  rgba(14, 13, 13,.1);
-    background-color: orangered;
+    background-color: #663399;
     font-weight: 700;
     margin-bottom: 2rem;
     color: white;
@@ -308,7 +313,7 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     width: 100%;
 }
 .form-det h4 {
-    color: orangered;
+    color: #663399;
     font-weight: 700;
     font-size: .8rem;
 }
@@ -559,7 +564,7 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
 }
 .msg-btn {
     width: 15%;
-    background-color: orangered;
+    background-color: #663399;
     border-radius: 1rem;
     text-align: center;
     padding: 1rem;
