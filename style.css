@@ -171,6 +171,8 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
 }
 .landing-det {
     width: 50%;
+    /* background-color: red; */
+    margin-top: 2.4rem;
     
     margin-left: 5.1rem;
 }
@@ -575,6 +577,9 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     color: white;
     font-weight: 500;
 }
+#tata {
+    display: none;
+}
 
 
 
@@ -692,8 +697,46 @@ header nav ul li a:hover, .about-landing nav ul li a:hover, .contact-landing nav
     .row {
         flex-direction: column;
     }
-    nav {
+    /* nav {
+        display: block;
+    } */
+    header nav ul, .about-landing nav ul, .contact-landing nav ul, .service-landing nav ul {
+        display: block;
+        
+    }
+    header nav, .about-landing, .contact-landing, .service-landing {
+       position: absolute;
+       background-color: white;
+       
+       height: 40vh;
+       width: 80%;
+       top: 15%;
+       left: -80%;
+        transition: 1 sec;
+       text-align: center;
+       z-index: 2;
+   }
+   header nav ul li , .about-landing nav ul li , .contact-landing nav ul li , .service-landing nav ul li  {
+   
+    padding: .7rem 0;
+    /* background-color: red; */
+    }
+    header nav ul li a , .about-landing nav ul li a , .contact-landing nav ul li a , .service-landing nav ul li a {
+        color: black;
+        font-size: 1.3rem;
+
+    }
+    /* header .contact-btn{
         display: none;
+    } */
+    #conc-btn {
+        display: none;
+    }
+    #tata{
+        display: block;
+        color: white;
+        font-size: 2.2rem;
+        cursor: pointer;
     }
     .contact-btn {
         border-radius: .5rem; 
